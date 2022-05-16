@@ -51,9 +51,9 @@ def get_file_content(filePath):
 
 
 def baidu_voice():
-    APP_ID = '25309910'
-    API_KEY = 'VenLQqKh0onHWvZ2B5BLddPj'
-    SECRET_KEY = 'rwUU1iOFO0nSFnfClvy01wNHoGEvHyio'
+    APP_ID = ''
+    API_KEY = ''
+    SECRET_KEY = ''
     client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
     my_record(t_l=2)
